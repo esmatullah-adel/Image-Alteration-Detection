@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Virtual Environments
+venv/
+env/
+.venv/
+webapp/myenv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+webapp/media/
+
+# VSCode and other IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# pyenv
+.python-version
+
+# MyPy
+.mypy_cache/
+
+# pytest
+.cache/
