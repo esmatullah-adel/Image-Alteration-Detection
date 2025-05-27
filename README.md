@@ -78,6 +78,7 @@ dataset/
 ## 📌 Note
 
 For higher accuracy, you may consider replacing the dataset with [140k-real-and-fake-faces dataset on Kaggle](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces).
+
 ---
 
 ## 🌐 Django Web App
