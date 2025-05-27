@@ -4,7 +4,7 @@ This project investigates the detection of **GAN-generated (fake)** vs **real im
 
 ---
 
-## 📦 Repository Contents
+## 📦 Repository Structure
 
 ```bash
 Image-Alteration-Detection/
@@ -16,11 +16,13 @@ Image-Alteration-Detection/
 ├── webapp/
 │   ├── manage.py
 │   ├── detection/
-│   └── main/
-│       ├── views.py
-│       ├── templates/
-│       └── model/
-│           └── mobilenetv2_model.h5
+│   ├── main/
+│   │   ├── views.py
+│   │   └── templates/
+│   └── model/
+│       └── mobilenetv2_model.h5
+│
+├── pre-trained weights/
 │
 ├── dataset/
 │   ├── train/
@@ -28,6 +30,7 @@ Image-Alteration-Detection/
 │   │   └── fake/
 │   └── test_mixed/
 │
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
@@ -72,6 +75,9 @@ dataset/
 - `train/`: Used for model training (contains labeled `real` and `fake` folders).
 - `test_mixed/`: Used for evaluation and predictions (unlabeled mixed set).
 
+## 📌 Note
+
+For higher accuracy, you may consider replacing the dataset with [140k-real-and-fake-faces dataset on Kaggle](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces).
 ---
 
 ## 🌐 Django Web App
